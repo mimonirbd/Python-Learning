@@ -12,5 +12,3 @@ print('\t\t', cnI)
 
 cnI = str(cnI)
 print(type(cnI))
-
-# Maybe: int to string possible but string to int impossible.
