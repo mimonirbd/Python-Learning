@@ -13,18 +13,15 @@ print('\t\t', cnI)
 cnI = str(cnI)
 print(type(cnI))
 
-# if string value is a float number then it can't convert to int number
-# only direct float to int possible
-
-ch = str(2654)
-print(type(ch))
-ch = int(ch)
-print(type(ch))
-
+# if string value is a float number then it can't convert to int number. process: string to float to int.
+# string to float to int
 ll = input(str())
+ll = float(ll)
+print(type(ll))
 ll = int(ll)
 print(ll)
+print(type(ll))
 
-#float to int
+# float to int
 fullN = 45.4
 print(int(fullN))
