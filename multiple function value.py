@@ -14,11 +14,6 @@ print(returnMultiple(typed))
 
 
 # custom function for user input
-def returnName(firstName, lastName):
-    firstName = firstName
-    lastName = lastName
-    return firstName + ' ' + lastName
-
 
 def nameResult():
     print('Type your First name: ')
@@ -30,4 +25,17 @@ def nameResult():
     return returnName(fN, lN)
 
 
+def returnName(fN, lN):
+    return fN + ' ' + lN
+
+
 print('\n\tYour full name is:', nameResult())
+
+
+# f2c converter function
+def F2C(F):
+    C = (F - 32) * (5 / 9)
+    return C
+
+
+print(F2C(94.4))
