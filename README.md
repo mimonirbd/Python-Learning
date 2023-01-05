@@ -1,2 +1,2 @@
-# Python-Learning
-Python Learning for Automation with ItShikkha Group and YouTube Channel.
+# Python Learning
+Python Learning and Practicing.
